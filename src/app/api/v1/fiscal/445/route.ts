@@ -1,0 +1,2 @@
+import {retail445} from "@/lib/calendar";
+export async function GET(req:Request){const y=Number(new URL(req.url).searchParams.get("year"));if(!Number.isInteger(y)||y<1||y>9998)return Response.json({error:"year must be an integer from 1 to 9998"},{status:400});return Response.json({year:y,rule:"Sunday nearest February 1; 4-4-5 weeks",periods:retail445(y),totalWeeks:retail445(y).reduce((a,p)=>a+p.weeks,0)});}
