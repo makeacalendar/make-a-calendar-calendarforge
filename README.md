@@ -22,7 +22,8 @@ The public demo's calendar events are saved in browser local storage. The Postgr
 **Live demo:** [CalendarForge Cloud](https://soothing-analysis-production-bd03.up.railway.app/)
  · [API and developer documentation](https://soothing-analysis-production-bd03.up.railway.app/docs)
  · [OpenAPI 3.1 JSON](https://soothing-analysis-production-bd03.up.railway.app/api/openapi)
- · [Health endpoint](https://soothing-analysis-production-bd03.up.railway.app/api/v1/health) · [Railway deployment template](https://railway.com/deploy/calendarforge-cloud)
+ · [Health endpoint](https://soothing-analysis-production-bd03.up.railway.app/api/v1/health)
+ · [Railway deployment template](https://railway.com/deploy/calendarforge-cloud)
 
 ![CalendarForge Cloud live demo](public/screenshots/calendarforge-live-demo.jpg)
 
@@ -32,8 +33,7 @@ The public demo's calendar events are saved in browser local storage. The Postgr
 <img src="public/screenshots/calendarforge-api-docs.jpg" alt="CalendarForge API documentation" width="100%" />
 </details>
 
-
-Run locally to see the authentic application:
+Run locally to explore the application without credentials:
 
     pnpm install
     pnpm dev
@@ -96,7 +96,10 @@ Requirements: Node.js 22 or newer and PostgreSQL only for project CRUD.
 - [Calendar mathematics](docs/calendar-mathematics.md)
 - [Railway deployment and limits](docs/railway-deployment.md)
 - [Complementary online calendar resources](docs/online-resources.md)
+- [Public live resource directory](https://soothing-analysis-production-bd03.up.railway.app/resources)
 - [Security policy](SECURITY.md)
+
+The public demo uses browser-local event storage. The docs page describes the live API routes and demo boundary; the OpenAPI link returns the machine-readable schema.
 
 ## Online calendar resources
 
