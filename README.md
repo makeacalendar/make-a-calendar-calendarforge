@@ -22,8 +22,9 @@ The public demo's calendar events are saved in browser local storage. The Postgr
 **Live demo:** [CalendarForge Cloud](https://soothing-analysis-production-bd03.up.railway.app/)
  · [API and developer documentation](https://soothing-analysis-production-bd03.up.railway.app/docs)
  · [OpenAPI 3.1 JSON](https://soothing-analysis-production-bd03.up.railway.app/api/openapi)
- · [Health endpoint](https://soothing-analysis-production-bd03.up.railway.app/api/v1/health)
- · [Railway deployment template](https://railway.com/deploy/calendarforge-cloud)
+ · [Health endpoint](https://soothing-analysis-production-bd03.up.railway.app/api/v1/health) · [Railway deployment template](https://railway.com/deploy/calendarforge-cloud)
+
+![CalendarForge Cloud live demo](public/screenshots/calendarforge-live-demo.jpg)
 
 
 Run locally to see the authentic application:
