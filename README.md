@@ -26,6 +26,12 @@ The public demo's calendar events are saved in browser local storage. The Postgr
 
 ![CalendarForge Cloud live demo](public/screenshots/calendarforge-live-demo.jpg)
 
+<details>
+<summary>API documentation screenshot</summary>
+<br>
+<img src="public/screenshots/calendarforge-api-docs.jpg" alt="CalendarForge API documentation" width="100%" />
+</details>
+
 
 Run locally to see the authentic application:
 
