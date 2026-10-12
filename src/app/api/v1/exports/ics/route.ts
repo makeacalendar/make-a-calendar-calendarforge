@@ -1,0 +1,2 @@
+import {federalHolidays,ics} from "@/lib/calendar";
+export async function GET(req:Request){const y=Number(new URL(req.url).searchParams.get("year")??new Date().getUTCFullYear());if(!Number.isInteger(y)||y<1||y>9998)return Response.json({error:"invalid year"},{status:400});const data=ics([...federalHolidays(y)].map(([date,title])=>({date,title})));return new Response(data,{headers:{"Content-Type":"text/calendar; charset=utf-8","Content-Disposition":"attachment; filename=us-federal-holidays-"+y+".ics"}});}
