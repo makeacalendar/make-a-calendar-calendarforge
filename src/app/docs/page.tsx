@@ -1,9 +1,7 @@
-const demo = "https://soothing-analysis-production-bd03.up.railway.app";
-
 export default function Docs() {
   return (
     <main className="docs">
-      <a href="/">← CalendarForge</a>
+      <a href="/">← CalendarForge</a> · <a href="/resources">Calendar resources</a>
       <span className="eyebrow">DEVELOPER DOCUMENTATION</span>
       <h1>CalendarForge API</h1>
       <p>
