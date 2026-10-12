@@ -71,8 +71,8 @@ Deployments can consume credits for the app and PostgreSQL. Costs depend on reso
 Requirements: Node.js 22 or newer and PostgreSQL only for project CRUD.
 
     cp .env.example .env
-    npm install
-    npm run dev
+    pnpm install
+    pnpm dev
     pnpm test
     pnpm typecheck
     pnpm build
